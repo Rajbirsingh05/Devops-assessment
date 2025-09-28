@@ -6,7 +6,13 @@
 -  Entire network like VPC, subnet, IG, nat gateway, route table and associates created using terraform
 -  Rest everything setup by using console
 -  Setup DNS using route 53
--  selected Us-West-1 region 
+-  selected Us-West-1 region
+
+---
+## Application Access
+
+- Accessible via DNS record in Route 53
+- Alternatively, use the ALB DNS name
 
 ## Network & Connectivity
 
@@ -103,10 +109,7 @@
 
 ---
 
-## Application Access
 
-- Accessible via DNS record in Route 53
-- Alternatively, use the ALB DNS name
 
 
 
