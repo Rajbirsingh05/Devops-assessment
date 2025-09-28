@@ -60,6 +60,7 @@
 - Logged into ECR for authentication using ECR login command 
 - Verified permissions for image push ( IAM  role attached)
 - Tagged and pushed image using ECR "View Push Command" instructions
+- iamge is encrpted using default KMS key 
 
 ---
 
