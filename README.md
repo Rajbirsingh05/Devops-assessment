@@ -1,5 +1,10 @@
 # Devops-assessment - End to end Summary of the assessment  
-
+## Assumptions & consideration 
+-  Two natGatway deployed per AZ, deviated from architecture 
+-  ALB acess log setup, storage destination is s3
+-  SSL confifured , used ACM service to generate public certificate
+-  Entire network like VPC, subnet, IG, nat gateway, route table and associates created using terraform
+-  Rest everything setup by using console 
 
 ## Network & Connectivity
 
